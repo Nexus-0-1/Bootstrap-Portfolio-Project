@@ -1,0 +1,385 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Bootstrap Project</title>
+  <link rel="stylesheet" href="styles/css/bootstrap.min.css">
+  <link rel="stylesheet" href="styles/css/style.css">
+
+
+  <!-- i had to specify the location of the image with inline css -->
+  <!-- CSS INLINE FOR THE URL THAT REFUSED TO SHOW IN THE SCSS -->
+  <style>
+    /*The header url image*/
+    .header-background {
+      background-image: linear-gradient(180deg, rgba(50, 58, 69, 0.55), rgba(50, 58, 69, 0.74)), url(./img/hero-bg.jpg);
+    }
+
+    /*The about us url image*/
+    .column-left {
+      background-image: linear-gradient(180deg, rgba(12, 32, 59, 0.55), rgba(12, 32, 59, 0.74)), url(./img/cus1.jpg);
+    }
+
+    /*The service url image*/
+    .our-service-right {
+      background-image: linear-gradient(180deg, rgba(12, 32, 59, 0.55), rgba(12, 32, 59, 0.74)), url(./img/img3.jpg);
+    }
+
+    /*IMG SECTIONS FOR THE TEAM AREA*/
+    .img-1 {
+      background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(12, 32, 59, 0.9)));
+      background-image: linear-gradient(180deg, rgba(12, 32, 59, 0.55), rgba(12, 32, 59, 0.74)), url(./img/pantai1.jpg);
+    }
+
+    .img-2 {
+      background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(12, 32, 59, 0.9)));
+      background-image: linear-gradient(180deg, rgba(12, 32, 59, 0.55), rgba(12, 32, 59, 0.74)), url(./img/pantai2.jpg);
+    }
+
+    .img-3 {
+      background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(12, 32, 59, 0.9)));
+      background-image: linear-gradient(180deg, rgba(12, 32, 59, 0.55), rgba(12, 32, 59, 0.74)), url(./img/pantai3.jpg);
+    }
+
+    .img-4 {
+      background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(12, 32, 59, 0.9)));
+      background-image: linear-gradient(180deg, rgba(12, 32, 59, 0.55), rgba(12, 32, 59, 0.74)), url(./img/pantai4.jpg);
+    }
+
+    .img-5 {
+      background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(12, 32, 59, 0.9)));
+      background-image: linear-gradient(180deg, rgba(12, 32, 59, 0.55), rgba(12, 32, 59, 0.74)), url(./img/pantai5.jpg);
+    }
+
+    .img-6 {
+      background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(12, 32, 59, 0.9)));
+      background-image: linear-gradient(180deg, rgba(12, 32, 59, 0.55), rgba(12, 32, 59, 0.74)), url(./img/pantai6.jpg);
+    }
+
+    /* The contact us image*/
+    .contact-right{
+      background-image: linear-gradient(180deg, rgba(12, 32, 59, 0.55), rgba(12, 32, 59, 0.74)), url(./img/img2.jpg );
+    }
+  </style>
+</head>
+
+<body>
+
+  <div class="header-background">
+    <div id="nav" class="sticky-nav">
+
+      <!-- Start of Bootstrap Navigation -->
+      <nav class="navbar navbar-expand-lg">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="#">Sage Library</a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+            data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+            aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+            <span></span>
+            <span></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0 ms-auto">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#about-us">About Us</a>
+              </li>
+              
+              <li class="nav-item">
+                <a class="nav-link" href="#our-services">Services</a>
+              </li>
+
+              <li class="nav-item">
+                <a class="nav-link" href="#team">Team</a>
+              </li>
+
+              <li class="nav-item">
+                <a class="nav-link" href="#contact">Contact Us</a>
+              </li>
+
+            </ul>
+            <form class="d-flex" role="search">
+
+              <button class="btn" type="submit">Discover</button>
+            </form>
+          </div>
+        </div>
+      </nav>
+      <!-- End of bootstrap nav-bar -->
+    </div>
+
+    <h1 class="heading">
+      Code Utilities and Components
+    </h1>
+  </div>
+
+  <!-- About us -->
+  <div class="container-fluid" id="about-us">
+    <div class="row">
+      <div class="col-xs-12 col-sm-6 col-lg-6 column-left">
+
+      </div>
+
+      <div class="col-xs-12 col-sm-6 col-lg-6 column-right">
+        <h1 class="section-title">
+          About Us
+        </h1>
+        <p class="paragraph">
+          Lorem ipsum dolor, sit amet consectetur adipisicing elit. Tempore corrupti distinctio quaerat recusandae
+          magnam, laudantium excepturi vel eaque fuga rem eius cumque fugiat ab, blanditiis quam impedit, molestiae
+          praesentium. Sint culpa magnam ut molestias, impedit, natus iure fuga aut nesciunt, eius dignissimos sit
+          doloremque a veritatis quo modi nobis eos obcaecati hic consequatur tempora? Consequatur suscipit laboriosam
+          pariatur temporibus voluptas aperiam molestias id animi aut. Inventore quos qui earum quo recusandae ratione
+          doloremque, itaque eos quod alias, optio consequatur quibusdam dolor? Aspernatur reiciendis saepe ut,
+          voluptatem voluptatibus illo vel, amet earum enim quam architecto, ad distinctio quasi ratione nihil possimus!
+        </p>
+      </div>
+    </div>
+  </div>
+
+  <!-- Services -->
+  <div class="container-fluid" id="our-services">
+    <div class="row">
+      <div class="col-xs-12 col-sm-6 col-lg-6">
+        <h1 class="service-section">
+          What we do best
+        </h1>
+        <p class="paragraph">
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Laboriosam quisquam tempora perspiciatis suscipit vel
+          qui aliquam iure nostrum pariatur nisi!
+        </p>
+
+        <div class="row">
+          <div class="col-xs-12 col-sm-6 col-lg-6 service-1">
+            <!-- Icon for the service section -->
+            <ion-icon name="color-wand-outline"></ion-icon>
+            <h1 class="service-title-1">Web Design</h1>
+            <p class="service-paragraph-1">
+              Lorem ipsum, dolor sit amet consectetur adipisicing elit. Placeat, nihil!
+            </p>
+          </div>
+
+          <div class="col-xs-12 col-sm-6 col-lg-6 service-2">
+            <!-- Icon for the service section 2 Twitter Icon -->
+            <ion-icon name="logo-twitter"></ion-icon>
+            <h1 class="service-title-2">Digital Marketing</h1>
+            <p class="service-paragraph-2">
+              Lorem ipsum, dolor sit amet consectetur adipisicing elit. Placeat, nihil!
+            </p>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-xs-12 col-sm-6 col-lg-6 our-service-right">
+
+      </div>
+    </div>
+  </div>
+
+  <!-- OUR TEAM SECTION -->
+  <div class="container-fluid" id="team">
+    <div class="row">
+      <div class="col-xs-12 col-sm-6 col-lg-6 portfolio">
+        <div class="row">
+          <div class="col-xs-12 col-sm-6 col-lg-6 gallery img-1"></div>
+          <div class="col-xs-12 col-sm-6 col-lg-6 gallery img-2"></div>
+        </div>
+
+        <div class="row">
+          <div class="col-xs-12 col-sm-6 col-lg-6 gallery img-3"></div>
+          <div class="col-xs-12 col-sm-6 col-lg-6 gallery img-4"></div>
+        </div>
+
+        <div class="row">
+          <div class="col-xs-12 col-sm-6 col-lg-6 gallery img-5"></div>
+          <div class="col-xs-12 col-sm-6 col-lg-6 gallery img-6"></div>
+        </div>
+      </div>
+
+      <div class="col-xs-12 col-sm-6 col-lg-6">
+        <div class="row">
+
+          <div class="text-left-block">
+            <div class="left-center-text">
+              <div class="left-center-part">
+                <h2 class="team-section">Meet Our Team</h2>
+                <p class="team-paragraph">
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Debitis, totam assumenda. Nemo temporibus
+                  porro sint laborum modi, nam commodi? Mollitia.
+                </p>
+
+
+                <!-- <div class="row">
+                  <div class="col-xs-12 col-sm-6 col-lg-6 block-team">
+                    <img src="img/cus3.jpg" alt="image 1" class="team-member">
+                    <h3>Code Sage</h3>
+                    <small>Programmer</small>
+                    <p class="paragraph">
+                      Lorem ipsum dolor sit amet consectetur adipisicing elit. Eius sit amet odio provident dicta cum
+                      non dignissimos vel.
+                    </p>
+
+                    <div class="social-media">
+                      <ion-icon name="logo-facebook"></ion-icon>
+                      <ion-icon name="logo-twitter"></ion-icon>
+                      <ion-icon name="logo-whatsapp"></ion-icon>
+                      <ion-icon name="logo-instagram"></ion-icon>
+                    </div>
+
+                    <div class="col-xs-12 col-sm-6 col-lg-6 block-team">
+                      <img src="img/cus2.jpg" alt="image 2" class="team-member">
+                      <h3>Elizabeth</h3>
+                      <small>Editor</small>
+                      <p class="paragraph">
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Eius sit amet odio provident dicta cum
+                        non dignissimos vel.
+                      </p>
+
+                      <div class="social-media">
+                        <ion-icon name="logo-facebook"></ion-icon>
+                        <ion-icon name="logo-twitter"></ion-icon>
+                        <ion-icon name="logo-instagram"></ion-icon>
+                        <ion-icon name="logo-whatsapp"></ion-icon>
+                      </div>
+
+                    </div>
+                  </div>
+                </div> -->
+
+                <div class="row">
+                  <div class="col-xs-12 col-sm-6 col-lg-6 block-team">
+
+                    <!-- I FIXED THE PROBLEM OF THE TWO IMAGES NOT ALIGING TOGETHER BY REWRITING THE CODE -->
+                    <!-- THE INITIAL PROBLEM WAS THAT I DID NOT PUT THE SECOND IMAGE WITHIN THE THE ROW DIV BUT I PUT IT INSIDE THE FIRST IMAGE DIV -->
+                    <img src="img/cus1.jpg" alt="image 1" class="team-member">
+                    <h3>Code Sage</h3>
+                    <small>programmer</small>
+                    <p class="paragraph">
+                      Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ea quo nam accusamus sunt voluptatum, eius optio amet!
+                    </p>
+                    <div class="social-media">
+                        <ion-icon name="logo-facebook"></ion-icon>
+                        <ion-icon name="logo-twitter"></ion-icon>
+                        <ion-icon name="logo-instagram"></ion-icon>
+                        <ion-icon name="logo-whatsapp"></ion-icon>
+                    </div>
+                  </div>
+                  <!-- The second team Member -->
+                  <div class="col-xs-12 col-sm-6 col-lg-6 block-team">
+
+                    <img src="img/cus3.jpg" alt="image 1" class="team-member">
+                    <h3>Vector</h3>
+                    <small>Developer</small>
+                    <p class="paragraph">
+                      Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ea quo nam accusamus sunt voluptatum, eius optio amet!
+                    </p>
+                    <div class="social-media">
+                        <ion-icon name="logo-facebook"></ion-icon>
+                        <ion-icon name="logo-twitter"></ion-icon>
+                        <ion-icon name="logo-instagram"></ion-icon>
+                        <ion-icon name="logo-whatsapp"></ion-icon>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+          </div>
+        </div>
+      </div>
+    </div>
+
+
+    <!-- The contact us section -->
+    <div class="container-fluid" id="contact">
+      <div class="row">
+
+        <div class="col-xs-12 col-sm-6 col-lg-6 contact-left">
+          <div class="text-left-block">
+            <div class="left-center-text">
+              <div class="left-center-part">
+                <h2 class="contact-section">Get In Touch</h2>
+                <p class="paragraph">
+                  We are here to help you <strong>Monday through Saturday</strong>, from 8am to 6pm. <br>Contact us via <strong>Phone:</strong><a href="#" class="phone-mail-link">(+234)88 6656 887</a>or <strong>Email :</strong> <a href="#" class="phone-mail-link">codesage@gmail.com</a>
+                </p>
+
+                <div class="row">
+                  <div class="col-xs-12 col-sm-12 col-lg-12">
+                    <form action="" method="post" id="contact-form" name="contact-form" data-name="contact-form">
+                      <div class="row">
+                        
+                        <div class="col-xs-12 col-sm-6 col-lg-6">
+                          <div class="form-group">
+                            <input type="text" id="name" class="form form-control" placeholder="Name" name="name" data-name="name" required>
+                          </div>
+                        </div>
+
+                        <div class="col-xs-12 col-sm-6 col-lg-6">
+                          <div class="form-group">
+                            <input type="email" id="email" class="form form-control" placeholder="Email Address*" name="email" data-name="Email Address" required>
+                          </div>
+                        </div>
+
+                        <div class="col-xs-12 col-sm-6 col-lg-6">
+                          <div class="form-group">
+                            <input type="text" id="company" class="form form-control" placeholder="Company Name" name="company" data-name="Company">
+                          </div>
+                        </div>
+
+                        <div class="col-xs-12 col-sm-6 col-lg-6">
+                          <div class="form-group">
+                            <input type="tel" id="phone" class="form form-control" placeholder="Phone number*" name="phone" data-name="Phone number" required>
+                          </div>
+                        </div>
+
+                        <div class="col-xs-12 col-sm-12 col-lg-12">
+                          <div class="form-group">
+                            <textarea name="text-area" class="form text-area form-control" placeholder="Your message here" name="message" data-name="Text Area" required></textarea>
+                          </div>
+                          <span class="sub-text">* Required fields</span>
+                        </div>
+
+                      </div>
+
+                      <button type="submit" id="valid-form" class="btn btn-color">
+                        Send Message
+                      </button>
+                    </form>
+                  </div>
+                </div>
+
+                <p class="copyright">
+                  Designed by Code Sage
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-xs-12 col-sm-6 col-lg-6 contact-right">
+
+        </div>
+      </div>
+    </div>
+
+    <!-- Back to top area -->
+    <a href="#" class="gotopbtn">
+      <ion-icon name="arrow-up-outline"></ion-icon>
+    </a>
+
+
+    <!-- Ionic Icons -->
+    <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+
+    <!-- Bootstrap and custom js -->
+    <script src="js/bootstrap.bundle.min.js"></script>
+    <script src="js/script.js"></script>
+</body>
+
+</html>
